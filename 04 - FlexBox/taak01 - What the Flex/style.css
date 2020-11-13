@@ -1,0 +1,38 @@
+.container{
+    border:5px solid darkmagenta;
+    display:flex;
+    flex-direction:row;
+    }
+    
+
+    .items{
+    color:white;
+    font-size:55px;
+    text-align:center;
+    text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+    padding:78px;
+    }
+
+    #item-1{
+        background:#1abc9c;
+    }
+
+    #item-2{
+        background:#e67e22;
+    }
+
+    #item-3{
+        background:#e74c3c;
+    }
+
+    #item-4{
+        background:#2ecc71;
+    }
+
+    #item-5{
+        background:#9b59b6;
+    }
+    
+    #item-6{
+        background:#3498db;
+    }

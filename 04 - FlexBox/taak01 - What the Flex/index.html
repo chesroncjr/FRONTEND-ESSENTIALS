@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox container</title>
+    <link rel="stylesheet" href="style.css">
 
     <style>
         .container{
-            border:5px solid darkmagenta;
+        border:5px solid darkmagenta;
+        display:flex;
+        flex-direction:row;
         }
+        
 
         .items{
-            color:white;
-            font-size: 100px;
-            text-align: center;
-            text-shadow:4px 4px 0 rgba(0,0,0,0.1);
-            padding:10px;
+        color:white;
+        font-size:50px;
+        text-align:center;
+        text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+        padding:10px;
         }
 
         #item-1{
@@ -46,13 +50,15 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <nav>
+    <ul class="container">
         <div id="item-1" class="items">Blok 1</div>
         <div id="item-2" class="items">Blok 2</div>
         <div id="item-3" class="items">Blok 3</div>
         <div id="item-4" class="items">Blok 4</div>
         <div id="item-5" class="items">Blok 5</div>
         <div id="item-6" class="items">Blok 6</div>
-    </div>
+    </ul>
+    </nav>
 </body>
 </html>
